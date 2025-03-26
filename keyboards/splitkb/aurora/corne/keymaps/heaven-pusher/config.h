@@ -37,3 +37,7 @@
   #define COMBO_TERM 200
   #define EXTRA_SHORT_COMBOS
 #endif
+
+#ifdef RGBLIGHT_ENABLE
+    #define RGBLIGHT_EFFECT_BREATHING
+#endif
