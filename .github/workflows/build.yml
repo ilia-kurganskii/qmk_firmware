@@ -17,7 +17,7 @@ jobs:
       run: qmk compile -c -e CONVERT_TO=liatris -kb sofle -km heaven-pusher
 
     - name: Archive firmware
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       continue-on-error: true
       with:
         name: heaven-pusher-sofle-{{ github.sha }}
